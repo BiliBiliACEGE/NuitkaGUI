@@ -1,0 +1,137 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #f5f7fa;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #3a5a80;
+}
+
+QPushButton:pressed {
+    background-color: #2c4a6e;
+}
+
+/* 特殊按钮样式 */
+QPushButton#run_button {
+    background-color: #4caf50;
+}
+
+QPushButton#run_button:hover {
+    background-color: #3d8b40;
+}
+
+QPushButton#stop_button {
+    background-color: #f44336;
+}
+
+QPushButton#stop_button:hover {
+    background-color: #d32f2f;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #333333;
+    font-size: 25px;
+}
+
+/* 输入框样式 */
+QLineEdit, QComboBox, QSpinBox {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 6px;
+    background: white;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus {
+    border: 1px solid #4a6fa5;
+}
+
+/* 复选框样式 */
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+/* 分组框样式 */
+QGroupBox {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-top: 20px;
+    background: white;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+}
+
+/* 标签页样式 */
+QTabWidget::pane {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background: white;
+}
+
+QTabBar::tab {
+    background: #e5e7eb;
+    border: 1px solid #d1d5db;
+    padding: 8px 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background: white;
+    border-bottom-color: white;
+}
+
+/* 进度条样式 */
+QProgressBar {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    text-align: center;
+    background: white;
+}
+
+QProgressBar::chunk {
+    background-color: #4a6fa5;
+    border-radius: 2px;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background: #e5e7eb;
+    border-top: 1px solid #d1d5db;
+}
+
+/* 列表样式 */
+QListWidget {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background: white;
+}
+
+/* 控制台样式 */
+QTextEdit {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+}

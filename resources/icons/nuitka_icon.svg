@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#3776ab"/>
+  <path d="M32 12L16 32l16 20 16-20z" fill="#ffd43b"/>
+  <path d="M32 12v40l16-20z" fill="#ffd43b" opacity="0.5"/>
+  <path d="M24 32a8 8 0 1 0 16 0 8 8 0 0 0-16 0z" fill="#3776ab"/>
+  <path d="M12 32l8 8 8-8-8-8z" fill="#ffd43b"/>
+  <path d="M36 32l8 8 8-8-8-8z" fill="#ffd43b"/>
+  <text x="32" y="56" font-family="Arial" font-size="8" text-anchor="middle" fill="white">NUITKA</text>
+</svg>

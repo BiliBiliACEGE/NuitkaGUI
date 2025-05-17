@@ -1,0 +1,32 @@
+{
+    "script_path": "D:/Downloads/NuitkaGUI/nuitka_packager/main.py",
+    "output_dir": "D:/Downloads/NuitkaGUI/output",
+    "mode": "\u5355\u6587\u4ef6",
+    "platform": "Windows",
+    "standalone": true,
+    "onefile": true,
+    "remove_output": true,
+    "show_progress": true,
+    "follow_imports": true,
+    "include_packages": false,
+    "include_packages_list": "",
+    "enable_plugin": true,
+    "plugins_list": "pyqt5",
+    "icon_path": "D:/Downloads/NuitkaGUI/resources/icons/nuitka_icon.ico",
+    "company_name": "",
+    "product_name": "",
+    "version": "",
+    "console_window": false,
+    "parallel": true,
+    "parallel_count": 4,
+    "included_files": [
+        "D:/Downloads/NuitkaGUI/styles.qss",
+        "D:/Downloads/NuitkaGUI/nuitka_packager/ui.py",
+        "D:/Downloads/NuitkaGUI/nuitka_packager/config_manager.py",
+        "D:/Downloads/NuitkaGUI/resources/icons/clear.svg",
+        "D:/Downloads/NuitkaGUI/resources/icons/preview.svg",
+        "D:/Downloads/NuitkaGUI/resources/icons/stop.svg",
+        "D:/Downloads/NuitkaGUI/resources/icons/run.svg",
+        "D:/Downloads/NuitkaGUI/resources/icons/nuitka_icon.svg"
+    ]
+}
